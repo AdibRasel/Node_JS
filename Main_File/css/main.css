@@ -1,0 +1,79 @@
+
+
+.main_section{
+    background: url(../image/node_js.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main_menu{
+    background-color: #ffffff00;
+}
+
+
+.main_box{
+    width: 95%;
+    /* normali height deoya holo  */
+    height: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    /* border: 2px solid #444; */
+    box-shadow: 0px 0px 15px 5px #444;
+    background-color: #ffffffd4;
+}
+
+
+.icon{
+    width: 140px;
+    /* border: 2px solid #444; */
+    padding: 8px;
+    box-shadow: 0px 0px 15px 1px #444;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.icon:hover{
+    background-color: rgba(194, 194, 194, 0.575);
+    width: 145px;
+}
+
+
+
+
+
+/* main contant  */
+.main_contant{
+    width: 95%;
+    margin: auto;
+}
+
+
+
+
+
+/* end main contant  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 95%;
+    /* normali height deoya holo  */
+    /* height: 500px; */
+    margin: auto;
+    box-sizing: border-box;
+    /* border: 2px solid #444; */
+    box-shadow: 0px 0px 15px 5px #444;
+    background-color: #0000009c;
+}
