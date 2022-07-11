@@ -15,7 +15,7 @@
 .main_box{
     width: 95%;
     /* normali height deoya holo  */
-    height: 500px;
+    /* height: 500px; */
     margin: auto;
     box-sizing: border-box;
     /* border: 2px solid #444; */
@@ -37,6 +37,10 @@
     width: 145px;
 }
 
+.back_button{
+    text-align: center;
+}
+
 
 
 
@@ -45,6 +49,23 @@
 .main_contant{
     width: 95%;
     margin: auto;
+}
+
+.title h1{
+    color: #267970;
+    text-align: center;
+    font-weight: 900;
+}
+
+.carousel_image{
+    width: auto;
+    height: 350px;
+    margin: auto;
+    max-width: auto;
+}
+
+.documentation{
+    padding-bottom: 30px;
 }
 
 
