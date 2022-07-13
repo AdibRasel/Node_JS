@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="../css/main.css">
     <!-- icon css  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
     <style>
-      .main_box{
-        /* height: 500px; */
-      }
+    /* .main_box{
+    height: 500px;
+    } */
     </style>
 
-    <title>Node Js Module</title>
+    <title>Node Js</title>
   </head>
   <body>
     <!-- main section  -->
@@ -30,7 +31,7 @@
             <nav class="navbar navbar-expand-lg navbar-light main_menu">
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                 <!-- <h1><a class="" href="">Node JS</a></h1> -->
-                <a href="../index.html"><img class="img-fluid icon" src="image/node-js-icon-.jpg" alt=""></a>
+                <a href=""><img class="img-fluid icon" src="image/node-js-icon-.jpg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -92,68 +93,20 @@
 
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
+                <!-- <li class="breadcrumb-item active" aria-current="page">Home</li> -->
                 <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Node Js Module</li>
-                <!-- <li class="breadcrumb-item"><a href="#">Library</a></li>
-                <li class="breadcrumb-item">Data</li> -->
+                <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
+                <li class="breadcrumb-item active" aria-current="page">Request Response Model</li>
               </ol>
             </nav>
 
             <!-- main contant  -->
             <div class="main_contant">
+              <h1>Request Response Model</h1>
+              <img class="img-fluid" src="Request_Response_Model.png" alt="">
 
-            <h2>node.js মডিউল কি?</h2>
-            <p>node.js এ মডিউল হচ্ছে একগুচ্ছ ফাংশন যা একটি ফাইল বা একাধিক ফাইল বা ফোল্ডারে থাকতে পারে। মডিউল ব্যবহারের অনেক সুযোগ সুবিধা রয়েছে। এর প্রধান সুবিধা হল মডিউলে থাকা ফাংশন বা ব্লক পুনরায় ব্যবহারযোগ্য। যার ফলে একটি মডিউল এর জন্য একবার কোড করেই একাধিকবার প্রোগ্রামে সেটি ব্যবহার করা যায়।</p>    
-          
+              
 
-            <h3>node.js এ তিন ধরনের মডিউল রয়েছে।</h3>
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      ১. কোর মডিউল।(Core Modules) 
-                    </button>
-                  </h5>
-                </div>
-            
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                  <div class="card-body">
-                    <p><b>কোর মডিউলঃ</b> কোর মডিউল বলতে node.js ইন্সটল করার সাথে সাথেই node.js এর সাথে বিল্ট-ইন যেসকল মডিউল থাকে সেগুলোকে বোঝায়। কোর মডিউল গুলো require() ফাংশনের সাহায্যে কোডের মধ্যে সরাসরি ব্যবহার করা যায়।</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      ২. লোকার মডিউল।(local Modules)
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                  <div class="card-body">
-                    <p><b>লোকার মডিউলঃ</b> আমরা যদি আমাদের node.js প্রজেক্টে একটি ফাইল ক্রিয়েট করে সেখানে এক বা একাধিক ফাংশন তৈরি করি এবং পরবর্তীতে আমাদের প্রজেক্টে সেই ফাংশনগুলো রিকোয়ার করে ব্যবহার করি তাহলে সেটিকে বলা হবে লোকাল মডিউল।</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      ৩. থার্ড পার্টি মডিউল।(Third-party Modules)
-                    </button>
-                  </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                  <div class="card-body">
-                    <p><b>থার্ড পার্টি মডিউলঃ </b> node.js এর জন্য অনলাইনে অনেক মডিউল এভেলেবেল রয়েছে যেগুলো npm প্যাকেজ ম্যানাজার দিয়ে ইন্সটল করে ব্যবহার করতে হয়। এসব মডিউলকেই থার্ড পার্টি মডিউল বলা হয়। থার্ড পার্টি মডিউল গুলো ব্যবহার করার নিয়ম কোর মডিউল গুলোর মতই।</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            
 
 
 
