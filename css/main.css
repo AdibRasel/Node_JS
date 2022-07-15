@@ -52,18 +52,27 @@
 }
 
 
-
-.carousel_image{
-    width: auto;
-    height: 350px;
-    margin: auto;
-    max-width: auto;
-}
-
 .documentation{
     padding-bottom: 30px;
 }
 
+.documentation li{
+    list-style: square;
+    margin-bottom: 30px;
+}
+.documentation li a{
+    background-color: rgb(0 123 255 / 36%);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+.documentation li a:hover{
+    background-color: #00000087;
+    color:white;
+    padding: 12px;
+}
 
 
 
