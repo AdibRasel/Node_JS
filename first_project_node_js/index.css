@@ -1,0 +1,65 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.header{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+.input_box{
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px #444;
+    padding: 10px;
+    margin-top: 15px;
+    height: 350px;
+}
+.file_name{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+.description{
+    /* padding: 10px; */
+    width: 100%;
+}
+
+.submit_btn{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color:white;
+    font-size: larger;
+}
+.submit_btn:hover{
+    background-color: rgb(132, 0, 255);
+    color:black
+}
+
+.button_box{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+.btn{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    background-color: blueviolet;
+    color:white;
+    font-size: larger;
+
+}
+.btn a{
+    text-decoration: none;
+    color:white
+}
+.btn:hover{
+    background-color: rgb(132, 0, 255);
+    color:black
+}
